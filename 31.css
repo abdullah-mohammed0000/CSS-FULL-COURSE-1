@@ -1,0 +1,160 @@
+
+H1{
+
+    text-align: center;
+}
+
+
+#calculator-design{
+
+width: 500px;
+height: 665px;
+background-color: black;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: flex-start;
+margin: auto;
+
+
+
+}
+
+.display{
+
+    width: 496px;
+    height: 70px;
+    margin-top: 40px;
+    border: 1px solid teal;
+    background-color: white;
+   
+
+}
+.display input{
+    width: 488px;
+    height: 70px;
+    margin-left: 2px;
+    margin-right: 2px;
+   text-align: right;
+   font-size: larger;
+}
+
+/*START OF CAL1*/
+#calculator1{
+width: 500px;
+height: 110px ;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: flex-start;
+
+
+}
+
+
+#calculator1 > .cal1{
+color: white;
+width:113px;
+height: 100px;
+border: 1px solid white;
+margin: 5px;
+text-align: center;
+font-size: x-large;
+}
+
+/*END OF CAL1*/
+
+/*START OF CAL2*/
+#calculator2{
+    width: 500px;
+    height: 110px ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    }
+    
+    
+    #calculator2 > .cal2{
+    color: white;
+    width:113px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    }
+   /*END OF CAL2*/ 
+
+
+   /*START OF CAL3*/
+#calculator3{
+    width: 500px;
+    height: 110px ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    }
+    
+    
+    #calculator3 > .cal3{
+    color: white;
+    width:113px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    }
+   /*END OF CAL3*/ 
+
+    /*START OF CAL4*/
+#calculator4{
+    width: 500px;
+    height: 110px ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    }
+    
+    
+    #calculator4 > .cal4{
+    color: white;
+    width:113px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    }
+   /*END OF CAL4*/ 
+
+   /*START OF CAL4*/
+#calculator5{
+    width: 500px;
+    height: 110px ;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    }
+    
+    
+    #calculator5 >.cal5{
+   color: white;
+    width:113px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    }
+
+   /*END OF CAL5*/ 
