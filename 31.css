@@ -1,7 +1,13 @@
+*{
+margin: 0;
+padding: 0;
+
+}
 
 H1{
 
     text-align: center;
+    margin-top: 15PX;
 }
 
 
@@ -16,6 +22,8 @@ flex-wrap: nowrap;
 justify-content: flex-start;
 align-items: flex-start;
 margin: auto;
+box-shadow: 4px 4px 16px 16px salmon;
+transition: 0.5s;
 
 
 
@@ -38,6 +46,10 @@ margin: auto;
     margin-right: 2px;
    text-align: right;
    font-size: larger;
+}
+
+.display:hover{
+   box-shadow: inset 5px 5px 5px gold;
 }
 
 /*START OF CAL1*/
@@ -63,6 +75,10 @@ text-align: center;
 font-size: x-large;
 }
 
+#calculator1 > .cal1:hover{
+box-shadow: 5px 5px goldenrod;
+}
+
 /*END OF CAL1*/
 
 /*START OF CAL2*/
@@ -86,6 +102,10 @@ font-size: x-large;
     text-align: center;
     font-size: x-large;
     }
+
+    #calculator2 > .cal2:hover{
+        box-shadow: 5px 5px goldenrod;
+        }
    /*END OF CAL2*/ 
 
 
@@ -110,6 +130,10 @@ font-size: x-large;
     text-align: center;
     font-size: x-large;
     }
+
+    #calculator3 > .cal3:hover{
+        box-shadow: 5px 5px goldenrod;
+        }
    /*END OF CAL3*/ 
 
     /*START OF CAL4*/
@@ -133,6 +157,10 @@ font-size: x-large;
     text-align: center;
     font-size: x-large;
     }
+
+    #calculator4 > .cal4:hover{
+        box-shadow: 5px 5px goldenrod;
+        }
    /*END OF CAL4*/ 
 
    /*START OF CAL4*/
@@ -157,4 +185,8 @@ font-size: x-large;
     font-size: x-large;
     }
 
+    #calculator5 > .cal5:hover{
+        box-shadow: 5px 5px goldenrod;
+        }
+    
    /*END OF CAL5*/ 
