@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Var</title>
+
+    <style>
+
+.menu{
+ background-color: teal;
+
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+
+}
+
+.menu a{
+   color: white;
+   padding: 0 20px;
+   text-decoration: none;  
+
+}
+
+.menu a:hover{
+    background-color: grey;
+}
+
+@media screen and (max-width:600px)
+{
+  .menu{
+flex-direction: column;
+justify-content: flex-start;
+text-align: center;
+
+
+  }
+  .menu a{
+           background-color:burlywood;
+        margin: 10px 0px;
+}
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="menu">
+   <a href="#">Home</a>
+   <a href="#">Contact</a>
+   <a href="#">About Me</a>
+   <a href="#">Courses</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        *{
+
+            box-sizing: border-box;
+        }
+        .menubar{
+           background-color: teal;
+           text-align: center;
+           padding: 20px 20px;
+         z-index: 100;
+
+        }
+
+       .menubar a{
+            padding: 0px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        .dropdown{
+                 display: inline-block;  
+                 position: relative;
+            
+        }
+       
+        .dropdowncontent {
+        
+            position: absolute;
+           
+            background-color: teal;
+            text-align: left;
+            margin-top:10px ;
+            min-width: 100px;
+            height: 40px;
+            font-size: smaller;
+            display: none;
+               
+        }
+
+        .dropdown:hover{
+            height: 100px;
+        }
+
+        .dropdown:hover .dropdowncontent {
+           display: block;
+          
+        }  
+
+        .dropdowncontent a{
+            display:block;
+        }
+
+        .dropdowncontent a:hover{
+            background-color: gray;
+        }
+
+
+       
+
+
+      
+    </style>
+</head>
+<body>
+    <div class="menubar">
+<a href="#">Home</a>
+<a href="#">Tutorial</a>
+<div class="dropdown">
+<a href="#">Contact</a>
+<div class="dropdowncontent">
+<a href="#">Facebook</a>
+<a href="#">Email</a>
+
+</div>
+
+</div>
+<a href="#">About Me</a>
+
+
+    </div>
+</body>
+</html>
