@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Property</title>
+<style>
+    img{
+    max-width: 200px;
+    height: auto;
+    border: 6px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+  /* animation-name:img-anim;
+   animation-duration: 3s;
+  animation-delay:5s ;
+  animation-iteration-count: 3;
+animation-direction:alternate-reverse;
+animation-timing-function:ease-in ;
+position: relative;
+animation-fill-mode: forwards;*/
+
+    }
+    img:hover{
+      animation-name:img-anim;
+    animation-duration: 3s;
+    position: relative;
+    }
+   @keyframes img-anim {
+   0%{
+      top: 0;
+      left: 0;
+   }
+50%{
+   top: 100px;
+   left: 0;
+   opacity: 0%;
+}
+   100%{
+      top: 0;
+      left: 0;
+   }
+}
+
+    
+
+    
+</style>
+</head>
+<body>
+   <img src="43.images/fece5354ecbebe852c803595161fa4e2.webp" alt="Tamim Iqbal">
+
+
+
+</body>
+</html>
