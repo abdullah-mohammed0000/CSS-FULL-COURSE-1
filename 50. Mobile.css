@@ -1,0 +1,563 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*start of navbar*/
+
+  .navbar{
+    background-color:#ffcdb2;
+    justify-content: center;
+    text-align: center;
+  }
+  .profilepic img{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 5px;
+  
+   
+  }
+  img{
+    width: 200px;
+    height: 100px;
+   
+  }
+
+  .name{
+  
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    text-align: center;
+
+  }
+
+
+ 
+
+  .navlinks{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+  
+  }
+
+  .navlinks a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    background-color:#023047;
+    padding: 30px;
+    margin: 10px;
+
+  }
+
+  
+  
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  .navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+/*end of navbar*/
+
+.bio{
+ background-color:#fcd5ce;
+ font-family: 'Permanent Marker', cursive;
+ text-align: center;
+
+ height: 500px;
+ 
+ position:relative;
+
+
+}
+.title{
+  font-size: 1.5rem;
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.description{
+  font-family: 'Chathura', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px;
+}
+
+.facebook{
+  position:absolute;
+top: 15px;
+left: 330px;
+transition: 4s;
+transform: rotate(360deg);
+
+ 
+}
+
+
+.youtube{
+  position: absolute;
+  top: 120px;
+  right: 140px;
+  transition: 4s;
+  transform: rotate(360deg);
+}
+
+.spotify{
+  position: absolute;
+  top: 120px;
+  left: 140px;
+  transition: 4s;
+transform: rotate(360deg);
+}
+
+.soundcloud{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  transition: 4s;
+transform: rotate(360deg);
+}
+
+.instagram{
+  position:absolute;
+ top: 20px;
+ right: 10px;
+}
+
+.tiktok{
+  position: absolute;
+  top: 320px;
+ left: 330px;
+ transition: 10s;
+transform: rotate(360deg);
+}
+
+.pinterest{
+  position: absolute;
+  top:360px ;
+  left: 10px;
+  transition: 10s;
+transform: rotate(360deg);
+ 
+}
+.twitter{
+  position:absolute;
+  top: 340px;
+  left: 160px;
+  transition: 10s;
+  transform: rotate(360deg);
+}
+
+.telegram
+{
+  position: absolute;
+  top: 340px;
+  right: 160px;
+  transition: 10s;
+transform: rotate(360deg);
+ 
+}
+.discord{
+  position:absolute;
+  top:360px ;
+  right: 10px;
+  transition: 10s;
+transform: rotate(360deg);
+ 
+}
+
+
+
+.bio::after{
+  content: '';
+  display: table;
+  clear: both;
+  
+}
+/*end of bio part*/
+
+/*staart of card part*/
+.edu-work-skills{
+  background-color:#e5989b;
+ display: flex;
+ flex-direction: column;
+}
+ul{
+  list-style: none;
+}
+hr{
+  border:2px dotted;
+}
+li{
+  margin-top: 10px;
+}
+.education{
+width: 400px;
+display: block;
+margin: auto;
+text-align: center;
+background-color:#fbc4ab;
+margin-top: 10px;
+}
+.eduimg{
+  width: 100px;
+
+    border-radius: 35%;
+   background-color: white;
+  
+}
+.education:hover{
+  box-shadow:2px 8px 16px;
+ 
+}
+.work{
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color:#fbc4ab;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  .workimg{
+    width: 100px;
+    padding: 20px;
+    border-radius: 30%;
+   background-color: white;
+
+    
+  }
+  .work:hover{
+    box-shadow:2px 8px 16px;
+   
+  }
+
+  .skills{
+    width: 400px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color:#fbc4ab;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .skills img{
+      width: 100px;
+      padding: 0px;
+    border-radius: 30%;
+   background-color: white;
+
+    
+      
+    }
+    .skills:hover{
+      box-shadow:2px 8px 16px;
+     
+    }
+    .skills h2{
+   
+    }
+  .skills li{
+    
+    position: relative;
+   padding: 30px;
+   margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .skills li::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+ top: calc(90%);
+  left: 0;
+  background-color:#fdf0d5 ;
+  border-radius: 10000px;
+
+  }
+   
+  .skills li::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 20px;
+    top: calc(90%);
+    left: 0;
+    background-color:#c1121f ;
+    border-radius: 10000px;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+  
+    }
+
+    .skills li.f::after{
+      animation-name: facebook;
+    }
+    @keyframes facebook {
+      to{
+        width: 95%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.int::after{
+      animation-name: instagram;
+    }
+    @keyframes instagram {
+      to{
+        width: 95%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.you::after{
+      animation-name: youtube;
+    }
+    @keyframes youtube {
+      to{
+        width: 90%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.tik::after{
+      animation-name: tiktok;
+    }
+    @keyframes tiktok {
+      to{
+        width: 95%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.tweet::after{
+      animation-name: twitter;
+    }
+    @keyframes twitter {
+      to{
+        width: 80%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.link::after{
+      animation-name: link;
+    }
+    @keyframes link {
+      to{
+        width: 70%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.ads::after{
+      animation-name: ads;
+    }
+    @keyframes ads {
+      to{
+        width: 80%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.word::after{
+      animation-name: word;
+    }
+    @keyframes word {
+      to{
+        width: 95%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.wix::after{
+      animation-name: facebook;
+    }
+    @keyframes wix {
+      to{
+        width: 90%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.shop::after{
+      animation-name: facebook;
+    }
+    @keyframes shop {
+      to{
+        width: 90%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .skills li.affi::after{
+      animation-name: affiliate;
+    }
+    @keyframes affiliate {
+      to{
+        width: 30%;
+        background-color: #c1121f;
+      }
+      
+    }
+    .edu-work-skills::after{
+      content: '';
+      display: table;
+      clear: both;
+
+    }
+
+    /*end of card part*/
+    .contactme{
+      background-color: #ff8fab;
+     display: flex;
+     flex-direction: column;
+    }
+.message{
+
+  text-align: center;
+}
+    .message textarea{
+      width: 400px;
+      height: 300px;
+    display: block;
+    margin: auto;
+    resize: none;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  line-height: 30px;
+  }
+  .message textarea:hover{
+    box-shadow: 2px 4px 4px 4px;
+  }
+
+  .clientname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+width: 400px;
+height: 50px;
+text-align: center;
+display: block;
+margin: auto;
+margin-top: 10px;
+  }
+  .message .clientname:hover{
+    box-shadow: 2px 4px 8px 2px;
+  }
+
+  .clientmail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+width: 400px;
+height: 50px;
+text-align: center;
+display: block;
+margin: auto;
+margin-top: 10px;
+
+  }
+  
+  .message .clientmail:hover{
+    box-shadow: 2px 4px 8px 2px;
+  }
+
+.send{
+ margin-top: 20px;
+ margin-bottom: 10px;
+width: 100px;
+height: 40px;
+background-color: #c1121f;
+color: white;
+font-weight: bold;
+cursor: pointer;
+  }
+
+  .socialsites{
+  
+ 
+ width: 400px;
+ height: 200px;
+
+ display: block;
+ margin: auto;
+ text-align: center;
+  
+  }
+
+  .socialsites .btn{
+   width: 22%;
+   margin: 20px;
+   height: 70px;
+   border: none;
+   border-radius: 20px;
+   font-size: 25px;
+   cursor: pointer;
+   
+  }
+
+  .contactme::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  /*end of contact part*/
+
+  /*start of footer part*/
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.goal h2{
+margin-bottom: 10px;
+ margin-top: 10px;
+ 
+ 
+ 
+ 
+}
+.goal p{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.policy h2{
+  margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.policy p{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+
+}
+
+.payment h2{
+ 
+ margin-top: 15px;
+ margin-bottom: 10px;
+}
